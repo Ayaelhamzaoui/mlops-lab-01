@@ -52,7 +52,7 @@ LOG_PATH: Final[Path] = ROOT / "logs" / "predictions.log"
 
 
 
-def main(last_n: int = 200, z_threshold: float = 2.5) -> None:
+def main(last_n: int = 200, z_threshold: float = 2.0) -> None:
     """
     Analyse les derniers logs de prédiction pour détecter un éventuel drift.
 
