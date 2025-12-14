@@ -83,7 +83,7 @@ class PredictRequest(BaseModel):
     avg_session_minutes: float = Field(..., ge=0.0, le=500.0)
     plan_type: str
     region: str
-    request_id: Optional[str] = None
+    request_id: Optional[str] = 1
 
 
 
