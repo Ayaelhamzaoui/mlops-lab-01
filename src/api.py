@@ -304,5 +304,4 @@ def predict(req: PredictRequest) -> dict[str, Any]:
 
 
     log_prediction(out)
-    return out#   B A D   C H A N G E  
- 
+    return out
