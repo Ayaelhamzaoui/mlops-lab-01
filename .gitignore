@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 logs/
 models/
-data/
+#data/
